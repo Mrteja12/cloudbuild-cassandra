@@ -1,7 +1,8 @@
-cat > px-cassandra-app.yaml << EOF
-apiVersion: apps/v1
-kind: StatefulSet
-metadata:
+---
+  cat > px-cassandra-app.yaml << EOF
+  apiVersion: apps/v1
+ kind: StatefulSet
+ metadata:
   name: cassandra
 spec:
   selector:
